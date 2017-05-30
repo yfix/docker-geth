@@ -1,0 +1,10 @@
+version: '2'
+services:
+  geth:
+    build: .
+#    image: yfix/geth
+#    ports:
+#      - 30303:30303
+#    restart: unless-stopped
+#    volumes:
+#      - ./docker/etc/geth:/etc/geth
